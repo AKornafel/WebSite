@@ -1,0 +1,303 @@
+
+@font-face{
+	font-family: 'ModFont';
+	src: url("font/Lombok.otf") format("opentype");
+
+}
+body{
+	background-color: #EEEEF0;
+
+
+}
+
+#back{
+	position: fixed;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	width: 50%;
+	height:35%;
+	/*width:800px;
+	height:400px;*/
+}
+#title{
+
+	background-color: white;
+	position: fixed;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	width: 30%;
+	height: 25%;
+/*	width:550px;
+	height:200px;*/
+	opacity: 0.7;
+	text-align: center;
+	font-size: 5vw;
+	font-family: 'ModFont', sans-serif;
+	color:black;
+
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+#hid{
+	display:none;
+}
+
+#buttons{
+	z-index: 10;
+	position: fixed;
+	top: 10%;
+	left:30%;
+	transform: translate(0.5%, 10%);
+	width: 70%;
+	height:35%;
+	align-content: center;
+	margin: 0 auto;
+}
+#download{
+	background-color:#CBCACA;
+	border: none;
+	border-width: 1%;
+	width: 10%;
+	height: 40px;
+	
+
+	transform: translate(750%, -100%);
+
+
+}
+#download a{
+	color:black;
+	text-decoration: none;
+	font-size: 1.7vw;
+	font-family: 'ModFont', sans-serif;
+	width: 10%;
+	height: 19%;
+
+}
+.but{
+	background-color:#EEEEF0;
+	border: dashed;
+	border-width: 1%;
+	width: 15%;
+	height: 19%;
+	margin: 2%;
+
+}
+.but a{
+	color:black;
+	text-decoration: none;
+	font-size: 1.7vw;
+	font-family: 'ModFont', sans-serif;
+	width: 15%;
+	height: 19%;
+
+
+
+}
+.but:hover{
+	background-color: #CBCACA;
+	color:white;
+}
+.but a:hover{
+	color:white;
+}
+
+
+#b1{
+	display: none;
+}
+#b2{
+	display: none;
+}
+
+#b3{
+	display: none;
+}
+
+
+footer{
+	margin: 0 auto;
+	width: 100%;
+	position:fixed;
+	bottom: 1.5%;
+
+
+
+}
+#front{
+	margin: 0 auto;
+	width:100%;
+	font-family: sans-serif;
+	text-align: center;
+	position: fixed;
+	bottom: 200px;
+}
+.social{
+	margin: 2%;
+}
+
+
+.abtTitle{
+	text-align: center;
+	font-family: 'ModFont',sans-serif;
+	font-size:5vw;
+	margin:30px 5px 20px 15px;
+}
+
+#growLine{
+	width: 2px;
+	border-bottom: 1px solid black;
+}
+
+#behind{
+	background-color: #EEEEF0;
+	position: fixed;
+	top: 25%;
+	/*left:50%;*/
+	transform: translate(20%, 4%);
+	width: 70%;
+	height:60%;
+	padding:12px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.4vw;
+	content: "";
+	display:table;
+	clear:both;
+	line-height: 1.6;
+	margin-left:0;
+	/*margin-right:10px;*/
+
+}
+
+#vid{
+	position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.content {
+
+  position: fixed;
+  bottom:5;
+  
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+}
+#behind1 ul{
+	line-height: 1.5;
+	
+}
+
+/*#behind3{
+	width:300px;
+	height: 400px;
+	margin-left: 85%;
+	transform: translate(210%, -134%);
+	padding-left: 15px;
+	padding-top: 10px;
+	line-height: 1.5;
+	color:white;
+	font-family: Arial, Helvetica, sans-serif;
+
+}*/
+.fontz{
+	font-family: 'ModFont',sans-serif;
+	color: white;
+}
+ul{
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	line-height: 2;
+}
+#container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top:3.4%;
+
+}
+#container div{
+	width: 25%;
+	height: 300px;
+  margin: 10px;
+ line-height: 1.5;
+  padding: 10px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:white;
+  overflow: auto;
+}
+#res{
+	margin-left:10%;
+	margin-top:.5%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color:white;
+	line-height: 1.2;
+
+}
+#res2{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color:white;
+	line-height: 1.2;
+	margin-left:10%;
+
+}
+.big{
+	color:#47BDFE; 
+	font-size: 25px; 
+	font-family: 'ModFont', sans-serif; 
+	font-weight: bold;
+
+
+}
+.big1{
+	color:#33E88B; 
+	font-size: 25px; 
+	font-family: 'ModFont', sans-serif; 
+	font-weight: bold;
+
+
+}
+.little{
+	color:#A9DCF8; 
+	font-size: 18px; 
+	font-weight: bold;
+}
+.little1{
+	color:#97F1C3; 
+	font-size: 18px; 
+	font-weight: bold;
+}
+
+ @media only screen and (max-width: 900px) {
+ 	#behind{
+ 		height:460px;
+ 	
+ 		
+ 		font-size:1.8vw;
+ 	}
+ @media only screen and (max-width: 700px) {
+ 	#behind{
+ 		
+ 		
+ 		
+ 		font-size:2vw;
+ 	}
+
+ @media only screen and (max-width: 500px) {
+ 	#behind{
+ 		
+ 		
+ 		
+ 		font-size:2.5vw;
+ 	}
+
